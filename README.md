@@ -1,9 +1,13 @@
 # yobit-php-script-ticker
-it grabs data and print in json
-It currently Grabs Price of
-DOGE/USD	
-DOGE/BTC
-DOGE/ETH
-DOGE/WAVES	
+Simply Declare Coin Codes On Following Array Variables
 
-Soon we will Update One By One
+
+$currencys = array("trx", "xvg", "linda", "token", "ltc"); 
+
+
+we have Added 
+USD Value
+BTC Value
+ETH Value
+DOGE Value
+WAVES Value
