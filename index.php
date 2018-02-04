@@ -51,7 +51,7 @@ $json = file_get_contents($url);
 $json_data = json_decode($json, true);
 $cursusd = $currency;
 	$cursusd = $json_data["{$currency}_btc"]["sell"];
-
+echo "<table border=1><center><td>$currency Exchanges</td></center></table>";
 echo "<table border=1>";
 echo "<th>$currency/BTC</th>";
 
